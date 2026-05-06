@@ -1,4 +1,4 @@
-# 🦠 COVID-19 Trend Analysis & Forecasting
+#  COVID-19 Trend Analysis & Forecasting
 
 > Time-series analysis & ARIMA forecasting on global COVID-19 data across 10 countries
 
@@ -9,10 +9,10 @@
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 Analysing global COVID-19 trends to understand wave patterns and forecast near-term case trajectories using time-series modelling.
 
-## 🎯 Key Results
+##  Key Results
 | Metric | Result |
 |--------|--------|
 | Countries Analysed | **10** |
@@ -20,7 +20,7 @@ Analysing global COVID-19 trends to understand wave patterns and forecast near-t
 | ARIMA MAPE | **< 8%** |
 | Visualisations | **15+** |
 
-## 📁 Project Structure
+##  Project Structure
 ```
 covid19-trend-analysis/
 ├── data/
@@ -32,13 +32,13 @@ covid19-trend-analysis/
 └── README.md
 ```
 
-## 🔍 Key Analyses
+##  Key Analyses
 - Daily/weekly case trend visualisation per country
 - Wave detection and peak identification
 - 30-day ARIMA forecast with confidence intervals
 - Animated choropleth maps (Plotly) for global wave spread
 
-## 🚀 How to Run
+##  How to Run
 ```bash
 git clone https://github.com/VanilPatel/covid19-trend-analysis
 cd covid19-trend-analysis
@@ -46,10 +46,10 @@ pip install -r requirements.txt
 jupyter notebook notebooks/01_Data_Exploration.ipynb
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Python** — Pandas, NumPy, Statsmodels (ARIMA), Scikit-learn
 - **Visualisation** — Matplotlib, Seaborn, Plotly Express (choropleth)
 - **Data Source** — WHO COVID-19 Dataset (public)
 
 ---
-⭐ Star this repo if you found it helpful!
+ Star this repo if you found it helpful!
